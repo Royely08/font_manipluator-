@@ -6,9 +6,9 @@ difference = 0;
 
 function setup(){
     video = createCapture(VIDEO);
-    video.size(550,500);
+    video.size(350,300);
 
-    canvas  = createCanvas(550,500);
+    canvas  = createCanvas(350,300);
     canvas.position(560,150);
 
     poseNet = ml5.poseNet(video,modelLoaded);
@@ -16,10 +16,10 @@ function setup(){
 }
 
 function draw(){
-    background('#969A97');
-    fill('#f90093');
-    stroke('#f90093');
-    square(noseX,noseY,difference);
+    background('#ff0041');
+    fill('#2f00ff');
+    stroke('#2f00ff');
+    text("Lakshna",noseX,noseY,difference);
 }
 
 function modelLoaded(){
