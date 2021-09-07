@@ -3,35 +3,25 @@
     width: 100%;
     margin: 0%;
     box-shadow: 5px 5px 5px grey;
-    font-family: 'Hina Mincho', serif;
 }
 
 .note{
     font-size: 15px;
     color: black;
-    font-family: 'Hina Mincho', serif;
-}
-
-.font_size{
-    font-size: 18px;
-    color: white;
-    font-family: 'Hina Mincho', serif;
 }
 
 .copyright_footer{
     position: fixed;
-    color: rgb(0, 0, 0);
+    color: white;
     bottom: 0%;
     width: 100%;
-    background-color: rgb(255, 97, 97);
+    background-color: grey;
     line-height: 3;
     text-align: center;
-    font-family: 'Hina Mincho', serif;
 }
 
 canvas{
     border: 5px solid white;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(255, 188, 252);
-    font-family: 'Hina Mincho', serif;
+    box-shadow: 5px 5px 5px grey;
 }
